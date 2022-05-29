@@ -236,7 +236,7 @@ public class SearchNumbers {
         int counter = 0;
         long iterator = firstNumber.getNumber();
         Number[] numberArray = new Number[(int) secondNumber.getNumber()];
-//
+
         while (counter < getSecondNumber().getNumber()) {
             Number number = new Number(iterator);
             int isValidCounter = 0;
@@ -246,7 +246,6 @@ public class SearchNumbers {
 
             boolean hasPositive = this.properties.length > 0;
             boolean hasNegative = this.negativeProperties.length > 0;
-//
 
             if (hasPositive && hasNegative) {
                 for (amazingProperties property : this.properties) {
